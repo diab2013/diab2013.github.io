@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Diasum</title>
-    <link>https://diab2013.github.io/diasum.site/portfolio/</link>
-    <description>Recent content in Portfolios on Diasum</description>
+    <title>Portfolios on Home</title>
+    <link>https://diab2013.github.io/portfolio/</link>
+    <description>Recent content in Portfolios on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Apr 2021 22:41:10 +0530</lastBuildDate>
-    <atom:link href="https://diab2013.github.io/diasum.site/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://diab2013.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder Text</title>
-      <link>https://diab2013.github.io/diasum.site/portfolio/placeholder-text/</link>
+      <link>https://diab2013.github.io/portfolio/placeholder-text/</link>
       <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>https://diab2013.github.io/diasum.site/portfolio/placeholder-text/</guid>
+      <guid>https://diab2013.github.io/portfolio/placeholder-text/</guid>
       <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
     </item>
   </channel>

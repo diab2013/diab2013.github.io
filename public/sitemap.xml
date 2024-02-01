@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://diab2013.github.io/diasum.site/blogs/</loc>
+    <loc>https://diab2013.github.io/blogs/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/</loc>
+    <loc>https://diab2013.github.io/tags/example/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/tags/example/</loc>
+    <loc>https://diab2013.github.io/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/tags/placeholder-text/</loc>
+    <loc>https://diab2013.github.io/tags/placeholder-text/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/blogs/placeholder-text/</loc>
+    <loc>https://diab2013.github.io/blogs/placeholder-text/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/portfolio/placeholder-text/</loc>
+    <loc>https://diab2013.github.io/portfolio/placeholder-text/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/portfolio/</loc>
+    <loc>https://diab2013.github.io/portfolio/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/tags/sample/</loc>
+    <loc>https://diab2013.github.io/tags/sample/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/tags/</loc>
+    <loc>https://diab2013.github.io/tags/</loc>
     <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
-    <loc>https://diab2013.github.io/diasum.site/categories/</loc>
+    <loc>https://diab2013.github.io/categories/</loc>
   </url>
 </urlset>
