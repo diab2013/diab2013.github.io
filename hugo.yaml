@@ -1,6 +1,6 @@
 baseURL: "https://diab2013.github.io/"
 languageCode: "en-us"
-title: "Home"
+title: "Home | "
 theme: hugo-profile
 
 outputs:
@@ -15,12 +15,16 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-020VX7LP2H
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+
+# services:
+#   googleAnalytics:
+#     ID: G-MEASUREMENT_ID
 
 Menus:
   main:
