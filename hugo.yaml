@@ -26,18 +26,18 @@ markup:
 #   googleAnalytics:
 #     ID: G-MEASUREMENT_ID
 
-Menus:
-  main:
-    - identifier: portfolio
-      name: Portfolio
-      title: Portfolio
-      url: /portfolio
-      weight: 1
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 2
+# Menus:
+#   main:
+    # - identifier: portfolio
+    #   name: Portfolio
+    #   title: Portfolio
+    #   url: /portfolio
+    #   weight: 1
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 2
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
