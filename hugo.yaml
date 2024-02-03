@@ -189,7 +189,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Profesional Experience"
+    title: "Professional Experience"
     items:
       - job: "SIEM/SOC Analyst & Developer"
         company: "OKIOK Data ltd"
