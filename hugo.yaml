@@ -143,13 +143,13 @@ params:
     buttonEn:
       enable: true
       name: "Resume"
-      url: "https://www.dropbox.com/scl/fi/ffnp0xn9dn44smf2xc71w/CV_EN_Diab_simple.pdf?rlkey=ux4gimigo600hbc6d65fzojbi&dl=0"
+      url: https://www.dropbox.com/scl/fi/c7mxr7xtegwz71xrss5t1/CV_EN_Diab_simple_redacted.pdf?rlkey=sj473n6sp22w8gep60by2vkb7&dl=0
       download: true
       newPage: true
     buttonFr:
       enable: true
       name: "Resume French"
-      url: "https://www.dropbox.com/scl/fi/ffnp0xn9dn44smf2xc71w/CV_EN_Diab_simple.pdf?rlkey=ux4gimigo600hbc6d65fzojbi&dl=0"
+      url: https://www.dropbox.com/scl/fi/bjr59o5gny8yd903bklp4/CV_FR_Diab_v5_redacted.pdf?rlkey=07m0cc5w9cq147ctgbo5smvlt&dl=0
       download: true
       newPage: true
     socialLinks:
