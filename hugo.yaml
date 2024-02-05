@@ -1,6 +1,6 @@
 baseURL: "https://diab2013.github.io/"
 languageCode: "en-us"
-title: "Home | Diasum.com"
+title: "Diasum.com"
 theme: hugo-profile
 
 outputs:
@@ -22,17 +22,13 @@ markup:
     renderer:
       unsafe: true
 
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT_ID
-
-# Menus:
-#   main:
-    # - identifier: portfolio
-    #   name: Portfolio
-    #   title: Portfolio
-    #   url: /portfolio
-    #   weight: 1
+Menus:
+  main:
+    - identifier: portfolio
+      name: Portfolio
+      title: Portfolio
+      url: /portfolio
+      weight: 1
     # - identifier: blog
     #   name: Blog
     #   title: Blog posts
@@ -119,8 +115,8 @@ params:
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : false
+      enable : false
+      showOnScrollUp : true
     menus:
       disableAbout: false
       disableExperience: false
