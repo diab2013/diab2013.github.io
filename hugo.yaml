@@ -132,7 +132,7 @@ params:
     title: "Hey there! My name is Diab."
     subtitle: "I hack things for fun! "
     content: "Passionate cybersecurity expert! I tend to spend my time searching for new cybersecurity knowledge. "
-    image: /images/pic.jpg
+    image: /images/main_image.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
