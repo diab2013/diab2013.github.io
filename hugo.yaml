@@ -154,6 +154,8 @@ params:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/diab-khanafer-6b0212176/
       customIcons:
+        - icon: /images/credly.png
+          url: https://www.credly.com/users/diab-khanafer
         - icon: /images/github.png
           url: https://github.com/diab2013
         - icon: /images/tryhackme.png
