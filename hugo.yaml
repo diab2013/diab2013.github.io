@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 9
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-020VX7LP2H
@@ -121,7 +121,7 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
+      disableProjects: true
       disableAchievements: true
       disableContact: false
 
@@ -138,13 +138,13 @@ params:
     # roundImage: true # Make hero image circular | default false
     buttonEn:
       enable: true
-      name: "Resume"
+      name: "CV English"
       url: https://www.dropbox.com/scl/fi/c7mxr7xtegwz71xrss5t1/CV_EN_Diab_simple_redacted.pdf?rlkey=sj473n6sp22w8gep60by2vkb7&dl=0
       download: true
       newPage: true
     buttonFr:
       enable: true
-      name: "Resume French"
+      name: "CV Français"
       url: https://www.dropbox.com/scl/fi/bjr59o5gny8yd903bklp4/CV_FR_Diab_v5_redacted.pdf?rlkey=07m0cc5w9cq147ctgbo5smvlt&dl=0
       download: true
       newPage: true
@@ -305,26 +305,26 @@ params:
       #     url: "https://example.com"
 
   # Achievements
-  # achievements:
-  #   enable: true
-  #   # title: "Custom Name"
-  #   items:
-  #     - title: Google kickstart runner
-  #       content: I solved all problems with optimal solution.
-  #       url: https://example.com
-  #       image: /images/achievment.jpg
-  #     - title: Facebook Hackathon Winner
-  #       content: Developed a product using Artificial Intelligence.
-  #       image: /images/achievment.jpg
-  #     - title: Hugo Profile
-  #       content: Developed a theme and getting 1K+ downloads per month.
-  #       url: "https://github.com/gurusabarish/hugo-profile"
-  #       image: /images/achievment.jpg
-  #     - title: Microsoft Imagine Runner
-  #       content: We are developed a product which can help others.
-  #     - title: Google Summer of Code
-  #       content: Contributed to a open source project.
-  #       url: https://example.com
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
 
   # projects
   projects:
@@ -417,11 +417,12 @@ params:
 
   # For translations
   terms:
-    read: "Read"
+    read: "Read More"
     toc: "Table Of Contents"
     copyright: "All rights reserved"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
+    tags: "Tags (can be clicked to view similar)"
 
   datesFormat:
     article: "Jan 2, 2006"

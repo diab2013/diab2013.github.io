@@ -8,6 +8,7 @@ tags:
   - Risk Analysis
   - Polytechnique Montreal
   - OCTAVE Allegro
+  - Cybersecurity
 image: https://blog.compass-security.com/wp-content/uploads/2013/04/Untitled1.jpg
 # description: "This is a des"
 toc: 
