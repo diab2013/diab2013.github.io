@@ -145,7 +145,7 @@ params:
     buttonFr:
       enable: true
       name: "CV Français"
-      url: https://www.dropbox.com/scl/fi/bjr59o5gny8yd903bklp4/CV_FR_Diab_v5_redacted.pdf?rlkey=07m0cc5w9cq147ctgbo5smvlt&dl=0
+      url: https://www.dropbox.com/scl/fi/22kdzpv3nhoeb2ain6pm8/CV_FR_Diab_simple_redacted.pdf?rlkey=720ja67br1pv9dmdypo3j0s1n&dl=0
       download: true
       newPage: true
     socialLinks:
@@ -166,33 +166,47 @@ params:
     enable: true
     title: "About Me"
     # TODO: Need image
-    image: "/images/pic.jpg"
+    # image: "/images/pic.jpg"
     content: |-
-      I am a computer engineer graduate working as a SIEM/SOC analyst at [OKIOK Data ltd](https://www.okiok.com/) in Montreal, Quebec, Canada. I am also currently pursuing a master's degree in computer engineering with a cybersecurity option, minoring in GRC and Management (see [Education](#education) section).
+      I am a computer engineer graduate working as a Cybersecurity analyst at [Samsung Ads Canada](https://samsungads.ca/en/). I am also currently pursuing a master's degree in computer engineering with a cybersecurity option, minoring in GRC and Management (see [Education](#education) section).
 
       I have a strong interest in the intersection of technology and cybersecurity. I am always looking to further improve my skills and knowledge in cybersecurity as well as computer engineering.
 
       I aim to learn anything there is to know about security in the Cloud, such as AWS, Azure and GCP. To do so, I aim to aquire certifications in the most known cloud providers and achieve the role of Cloud Security Architect.
     skills:
-      enable: false
-      title: "Here are a few technologies I've been working with recently:"
+      enable: true
+      title: "Here are a few tools I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "ElasticSearch & Kibana"
+        - "Prisma Cloud"
+        - "Netskope"
+        - "Sumo Logic (CIP/CES/SOAR)"
+        - "AWS & Azure"
 
   # Experience
   experience:
     enable: true
     title: "Professional Experience"
     items:
+      - job: "Cybersecurity Analyst"
+        company: "Samsung Ads Canada"
+        companyUrl: "https://samsungads.ca/en/"
+        date: "May 2024 - present"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          I am currently responsible of analyzing logs and creating alerts for cloud infrastructures for multiple tenants. It is based on Prisma Cloud queries and Sumo Logic automations. 
+
+          - Analyze logs and create alerts in the SIEM platform.
+          - Automate response to alerts by developing procedures/script in the SOAR+ platform
+          - Refine procedures for handling cloud security breaches
+          - Researching Methods for Continuous Improvement of Application Security Posture.
+
       - job: "SIEM/SOC Analyst & Developer"
         company: "OKIOK Data ltd"
         companyUrl: "https://www.okiok.com/"
-        date: "June 2022 - present"
+        date: "June 2022 - May 2024"
         featuredLink:
           enable: false
           name: "View the project"
@@ -201,7 +215,7 @@ params:
           enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently responsible of managing, improving, and supporting a SIEM-as-a-service (SaaS) tool packaged for clients. It is based on Elasticsearch, Kibana, AWS, and custom pipelines wirtten in Python, Golang and Terrafom. 
+          I was responsible of managing, improving, and supporting a SIEM-as-a-service (SaaS) tool packaged for clients. It is based on Elasticsearch, Kibana, AWS, and custom pipelines wirtten in Python, Golang and Terrafom. 
 
           - Develop, update, and maintain over 150 detection use cases, using Lucene and KQL, ensuring continuous improvement in threat identification and response on Elasticsearch and Kibana, as well as provide cybersecurity insights to clients and management.
           - Engineer server-less pipeline structures, such as log parsing, using Golang, Python and Terraform, optimizing performance and scalability, as well as enhance parsing capabilities for various new systems including Microsoft logs, Linux, Mac, and cloud providers (Azure, GCP), contributing to comprehensive threat visibility.
@@ -240,25 +254,6 @@ params:
           - Developed, tested, and released custom extensions in Typescript/JavaScript on Azure DevOps Boards according to the demands of the team, improving team efficiency by over 20%.
           - Learned and used Azure’s REST API implemented in extensions using HTTP requests and REST API clients.
 
-      # - job: "UI/UX Designer"
-      #   company: "Netflix"
-      #   companyUrl: "https://example.com"
-      #   date: "June 2017 - Nov 2019"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
-      #   content: |
-      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-      #     - Lead backend developer for a product.
-      #     - Created a frontend design for a product.
-
-      # - job: "Product Designer"
-      #   company: "Google"
-      #   companyUrl: "https://example.com"
-      #   date: "Feb 2016 - Mar 2017"
-      #   content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
@@ -269,8 +264,8 @@ params:
         school:
           name: "Polytechnique Montreal"
           url: "https://www.polymtl.ca/en/"
-        date: "August 2023 - December 2024"
-        GPA: "3.88 out of 4.0"
+        date: "August 2023 - August 2024"
+        GPA: "3.93 out of 4.0"
         content: "Cybersecurity option, GRC (Governance, Risk, Compliance) and Management"
         # content: |-
         #   Extracurricular Activities
